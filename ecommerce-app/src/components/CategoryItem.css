@@ -1,0 +1,25 @@
+.category-item {
+    width: 100px; 
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.card {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%; 
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid gray;
+    padding: 3px 0 0 3.5px;
+}
+
+.card img {
+    align-self: center;
+    border-radius: 50%;
+    background-size: cover;
+}
