@@ -1,0 +1,31 @@
+.form_group {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 8px 4px;
+    padding: 4px 16px;
+}
+
+.form_group > label {
+    margin-right: 4px;
+    margin-left: 0px;
+    flex: 1;
+}
+
+.form_group > input {
+    width: 60vw;
+}
+
+.form_group > select {
+    width: 60vw;
+    padding: 8px;
+}
+
+.btn_add_product {
+    margin: 4px;
+    padding: 8px 18px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
