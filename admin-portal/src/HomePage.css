@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+}
+
+.nav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.Link:hover {
+    opacity: 0.5;
+}
