@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+}
+
+.nav .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.Link:hover {
+    opacity: 0.5;
+}
+
+.banner {
+    background-color: gray;
+    width: 100vw;
+    height: 35vh;
+    object-fit: cover;
+}
+
+.banner img {
+    width: auto; 
+    height: 35vh;
+    object-fit: cover;
+}
+
+.container > .categories {
+    display: flex;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-top: 16px;
+    margin-left: 8px;
+}
